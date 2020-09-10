@@ -4,7 +4,7 @@
 html,
 body {
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    background: #F1F4F6;
 }
 
 /* Box Shadow */
@@ -191,4 +191,59 @@ button:focus {
 .divider {
     border: 1px solid #005bf0;
     width: 100%;
+}
+
+/* Section BG */
+section {
+    background: white;
+}
+
+/* Light Text */
+.light-text {
+    color: #757575;
+}
+
+.lighter-text {
+    color: #9E9E9E;
+}
+
+/* Black Button */
+.btn-black {
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn-black:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.buttonIn {
+    width: 300px;
+    position: relative;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 45px;
+    border-radius: 5px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    height: 37px;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    transform: translateX(2px);
 }
