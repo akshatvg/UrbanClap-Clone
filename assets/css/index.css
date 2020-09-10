@@ -5,6 +5,7 @@ html,
 body {
     overflow-x: hidden;
     background: #F1F4F6;
+    scroll-behavior: smooth;
 }
 
 /* Box Shadow */
